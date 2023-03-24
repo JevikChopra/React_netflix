@@ -7,22 +7,25 @@ import Amzon from "./amzon"
 
 const favSeries ="netflix";
 
-const FavS=()=>{
+// const FavS=()=>{
 
-   if(favSeries==="netjhflix"){
-   return <Netflix/>
-   }
-   else{
-      return <Amzon/>
-   }
-}
+//    if(favSeries==="netjh flix"){
+//    return <Netflix/>
+//    }
+//    else{
+//       return <Amzon/>
+//    }
+// }
 
 
 // fat arrow function
 const App =()=>(
    <>
       <h1 className="heading">Name of series</h1>
-      <FavS/>
+      {/* <FavS/> */}
+      {favSeries==="netflix" ? <Netflix/>:<Amzon/>}
+
+
       {/* <Card 
          imgsrc={Sdata[0].imgscr}
          title={Sdata[0].titlen}
