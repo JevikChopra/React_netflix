@@ -1,0 +1,87 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.heading{
+  background-color: rgb(211, 210, 210);
+  color:rgba(47, 47, 47, 0.842);
+  text-align: center;
+  content: none;
+  justify-content: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  padding: 30px 0;
+  font-size: 1.5rem;
+  font-weight: 500;
+  letter-spacing: 2px;
+  margin-bottom: 30px;
+}
+.cards{
+  float: left;
+  width: 34.%;
+  padding: 4px;
+  margin-top: 70px;
+  margin-left: 130px;
+  /* align-items: center; */
+}
+.card{
+    /* justify-content: center; */
+    flex-direction: row;
+    padding: 20px;
+    margin: 30px;
+    transition: 0.5s;
+    align-items: center;
+
+}
+
+.card__img{
+  height: 200px;
+  width: 200px;
+  /* transition: 0.3s; */
+  border-radius: 5px;
+ 
+}
+.card:hover{
+  /* height: 202px;
+  width: 202px; */
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.5);
+  
+}
+.card__title{
+  margin-left: 8px;
+  text-align: center;
+}
+
+.card__info{
+ background-color: antiquewhite;
+ margin: 0;
+ padding: 0;
+}
+.card__category{
+  text-align: center;
+  margin: 0;
+  
+}
+body{
+  background-color: rgb(110, 138, 139);
+}
+h3{
+  font-family:'Times New Roman', Times, serif;
+  color:black;
+}
+span{
+  color:brown;
+  font-family:'Times New Roman', Times, serif;
+}
+button{
+  width: 200px;
+  height: 25px;
+  font-family: 'Courier New', Courier, monospace;
+  
+}
+button:hover{
+  width: 201px;
+  height: 25px;
+  font-family: 'Courier New', Courier, monospace;
+  
+}
